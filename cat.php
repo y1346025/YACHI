@@ -1,13 +1,41 @@
-<input type="search" class="light-table-filter" data-table="order-table" placeholder="請輸入關鍵字">
+<form>
+搜尋：<input type="text" name="搜尋">
+</form><?php
+class SQLiteDB extends SQLite3
+{
+  function __construct()
+  {
+     $this->open('cat.db');
+  }
+}
+$db = new SQLiteDB();
 
+// 查詢表中的數據
+
+echo "<b> Select Data from cat table :</b><hr/>";
+
+$sql =<<<EOF
+  SELECT * from cat;
+EOF;
+
+$ret = $db->query($sql);
+while($row = $ret->fetchArray(SQLITE3_ASSOC) ){ 
+  echo "Name = ". $row['Name'] ."<br/>\n";
+  echo "Age = ". $row['Age'] . "<br/>\n";
+  echo "Color = ". $row['Color'] ."<br/>\n";
+  echo "Appearence =  ".$row['Appearence'] ."<br/>\n\n";
+  echo '----------------------------------<br/>';
+}
+
+$db->close();
+?>
+搜尋:<input type="search" class="light-table-filter" data-table="order-table" placeholder="請輸入關鍵字">
 <body>
-	<link rel="stylesheet" href="stylesheet/main.css">
     <div class="wrap">
         <div class="table"></div>
         <div class="body"></div>
     </div>
 </body>
-<h1>
 <table class="order-table">
   <thead>
     <tr>
@@ -61,7 +89,6 @@
 	 </tr>
   </tbody>
 </table>
-</h2>
 <script>
 (function(document) {
   'use strict';
