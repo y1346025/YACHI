@@ -32,3 +32,8 @@ Database:
 
 Data:
 https://docs.google.com/document/d/1pUTO3WFSzwhsJGJYWv1SU3Qv9PiMLIxLydTMySdE-kc/edit
+
+#User Manual
+Step 1:Download php environment:https://www.wampserver.com/en/
+
+Step 2:Download github code:https://www.wampserver.com/en/
