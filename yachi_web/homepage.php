@@ -10,13 +10,15 @@
 		<div class="Header">
 			<div class = "YACHI_YA">
 			<div class="YACHI">&emsp;&emsp;&emsp;
-			<a href="project/index.html" title="測試超連結"><img src="photo/YACHI.jpg" width='42%'></a></div>
+			<a href="project/yachi2.php" title="進入網站"><img src="photo/YACHI.jpg" width='42%'></a></div>
+			
 			</div>
 			<div class="container-1">
 				<span class="icon"><i class="fa fa-search"></i></span>
 				<input type="search" id="search" placeholder="Search..." />
 			</div>
-			<div class = "Map_1"><div class="Map">&emsp;&emsp;&emsp;<img src="photo/map.jpg" width='25%'></div></div>
+			<div class = "Map_1"><div class="Map">&emsp;&emsp;&emsp;
+			<a href="project/map/map.php" title="進入網站"><img src="photo/map.jpg" width='25%'></a></div></div>
 		</div>
 		<div class="Body">
 				<div class="wave">
@@ -34,7 +36,7 @@
 				<span style="--i:12">P</span>
 				<span style="--i:13">!</span>
 				</div>
-				<br>
+				
 				<div class="img1_C"><img src="Slide/img1.jpg" class="img1" width='70%'></div>
 				</div>
 

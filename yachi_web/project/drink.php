@@ -4,7 +4,7 @@
 		<title> 
 			YACHI MAP
 		</title>
-		<link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+		<link rel="stylesheet" href="stylesheet/main.css">		
 		<script src="javascript/main.js"></script>
 	</head>	
 	
@@ -22,8 +22,8 @@
 				</form>
 				
 			</div>
-			<div class = "Map_1"><div class="Map">&emsp;&emsp;&emsp;
-			<a href="map.php" title="進入網站"><img src="photo/map.jpg" width='35%'></a></div></div>
+			<div class = "Map_1"><div class="Map">&emsp;&emsp;&emsp;<a href="map.php" title="進入網站">
+			<img src="photo/map.jpg" width='35%'></div></div>
 		</div>
 		<div class="Body">
 		<div class="Sidebar">
@@ -55,7 +55,7 @@
 		//echo "搜尋結果:$value<br/>";
 
 		$sql =<<<EOF
-		SELECT * from yachi ;
+		SELECT * from yachi WHERE 吃喝玩樂='好喝';
 EOF;
 		$ret = $db->query($sql);
 		while($row = $ret->fetchArray(SQLITE3_ASSOC) ){ 
