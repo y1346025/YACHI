@@ -18,7 +18,7 @@
 				<input type="search" id="search" placeholder="Search..." />
 			</div>
 			<div class = "Map_1"><div class="Map">&emsp;&emsp;&emsp;
-			<a href="project/map/map.php" title="進入網站"><img src="photo/map.jpg" width='25%'></a></div></div>
+			<a href="project/map.php" title="進入網站"><img src="photo/map.jpg" width='25%'></a></div></div>
 		</div>
 		<div class="Body">
 				<div class="wave">

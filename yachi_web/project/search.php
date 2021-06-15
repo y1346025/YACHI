@@ -12,18 +12,17 @@
 		<div class="Header">
 			<div class = "YACHI_YA"><div class="YACHI">&emsp;&emsp;&emsp;
 			<a href="yachi2.php" title="進入網站">
-			<img src="photo/YACHI.jpg" width='37%'></div></div>
+			<img src="photo/YACHI.jpg" width='37%'></a></div></div>
 			
 			<div class="container-1">
-				<span class="icon"><i class="fa fa-search"></i></span>
-				
+				<span class="icon"><i class="fa fa-search"></i></span>			
 				<form action="search.php" method="post">
 				<input type="text" name="value" placeholder="Search">
 				<input type="submit" value="搜尋">
 				</form>
 			</div>
 			<div class = "Map_1"><div class="Map">&emsp;&emsp;&emsp;<a href="map.php" title="地圖">
-			<img src="photo/map.jpg" width='35%'></div></div>
+			<img src="photo/map.jpg" width='35%'></a></div></div>
 		</div>
 		<div class="Body">
 		<div class="Sidebar">
